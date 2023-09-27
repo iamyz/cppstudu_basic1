@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\chapter2">
+      <UniqueIdentifier>{21dba3fa-7a8d-4e8b-a0ae-0d2e1b7ac43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter3">
+      <UniqueIdentifier>{48a76386-3906-4509-b236-6ccbbddcf7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter4">
+      <UniqueIdentifier>{f54fdeea-e581-4843-b09d-5d75221f6780}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter2_exercise5.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter2_exercise3.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter2_exercise6.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter2_exercise7.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter3_exercise1.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="visul_studio_edit_skill.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise15_最大公约数与最小公倍数.cpp">
+      <Filter>源文件\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="求标准二元一次方程的根.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\ASCii.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\标准输入输出流的控制符.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
